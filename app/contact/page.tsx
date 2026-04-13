@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail } from "lucide-react";
 
 export default function Contact() {
   const [status, setStatus] = useState("");
