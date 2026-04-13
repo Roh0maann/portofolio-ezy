@@ -4,11 +4,11 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full py-16 px-6 bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 transition-colors duration-300">
+    <footer className="w-full py-10 px-6 bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand Section */}
-          <div className="col-span-1 md:col-span-2 space-y-6">
+          <div className="col-span-1 md:col-span-2 space-y-4">
             <Link href="/" className="text-3xl font-black tracking-tighter">
               EF<span className="text-blue-600">.</span>
             </Link>
@@ -19,8 +19,8 @@ export default function Footer() {
 
           {/* Navigation Links */}
           <div className="space-y-6">
-            <h4 className="text-sm font-bold uppercase tracking-widest text-slate-400">Navigation</h4>
-            <ul className="space-y-4">
+            <h4 className="text-xs font-bold uppercase tracking-widest text-slate-400">Navigation</h4>
+            <ul className="space-y-3">
               {["Home", "Projects", "About", "Contact"].map((item) => (
                 <li key={item}>
                   <Link 
