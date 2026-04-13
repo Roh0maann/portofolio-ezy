@@ -1,4 +1,4 @@
-import { projects } from "@/data/projects";
+import { projects } from "../../data/projects";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
