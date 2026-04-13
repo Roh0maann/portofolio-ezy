@@ -3,7 +3,7 @@ import { Layout, Gamepad2, Terminal } from "lucide-react";
 export default function About() {
   return (
     <section className="py-24 px-6 max-w-5xl mx-auto min-h-screen">
-      <h1 className="text-4xl font-black mb-12 uppercase tracking-widest border-b pb-4">Tentang Saya</h1>
+      <h1 className="text-4xl font-black mb-12 uppercase tracking-widest border-b pb-4">About Me</h1>
       
       <div className="grid md:grid-cols-2 gap-12 items-start">
         <div className="space-y-6 text-lg text-gray-600 dark:text-gray-300">
